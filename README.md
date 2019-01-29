@@ -17,8 +17,10 @@ user name dan user email**
 repository. 
 * apabila belum dilakukan konfigurasi, akan mengakibatkan terjadi
 **kegagalan** saat menjalankan perintah git commit
-* Lakukan "git config --global user.name dan emal " 
+* Lakukan "git config --global user.name dan email " 
 supaya bisa login github ketika push
+ 
+ ![1](https://user-images.githubusercontent.com/45660042/51922599-f387f000-241b-11e9-931f-639d69974c5f.PNG)
 
 
 # Perintah Dasar Git <h2>
@@ -45,12 +47,19 @@ directory)
 
 * Buat File Bernama "README.md" (text file), jika file berhasil dibuat, akan tampil seperti dlm gambar
 
+ 
+![6](https://user-images.githubusercontent.com/45660042/51922889-80cb4480-241c-11e9-9a20-f08c7d1022cd.PNG)
+
+
 * kemudian tambahkan file tersebut ke repository dengan " git add 
 README.md, file yang berhasil ditambahkan akan terlihat seperti di 
 gambar, dengan "git status" 
 
 * Untuk  Menyimpan perubahan sebuah file ke repository local gunakan 
 printah " git commit -m "perubahan yang terjadi"
+
+![7](https://user-images.githubusercontent.com/45660042/51923055-c425b300-241c-11e9-9745-8d5fdf90f906.PNG)
+
 
 # Membuat repository server <h2>
 * Server reopsitory yang akan kita gunakan adalah http://github.com
@@ -67,10 +76,14 @@ sehingga dapat diakses oleh banyak user.
 * Untuk menambahkan remote repository server, gunakan perintah
 git remote add origin [url]
  
+ ![8](https://user-images.githubusercontent.com/45660042/51923144-efa89d80-241c-11e9-95b3-b0d9c00495e5.PNG)
+ 
 # Push (Mengirim perubahan ke server) <h2>
 * Untuk mengirim perubahan pada local repository ke server gunakan perintah git push.
 * Perintah ini akan meminta memasukkan username dan password pada akun github.com
-* Gunakan printah " git push -u origin master" 
+* Gunakan printah " git push -u origin master"
+ 
+ ![9](https://user-images.githubusercontent.com/45660042/51923222-1bc41e80-241d-11e9-8814-18b3b338255f.PNG)
 
 
 # Melihat hasilnya pada server repository <h2>
